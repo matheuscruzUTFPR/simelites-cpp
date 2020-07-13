@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/matheus/Workspace/ElitesCpp/build",
+  "command": "mpicxx  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_MPI_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SERIALIZATION_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/matheus/Workspace/ElitesCpp/MPI_INCLUDE_PATH -I/usr/include/postgresql -I/usr/include/postgresql/12/server  -g   -pthread -o CMakeFiles/ElitesCpp.dir/src/main.cpp.o -c /home/matheus/Workspace/ElitesCpp/src/main.cpp",
+  "file": "/home/matheus/Workspace/ElitesCpp/src/main.cpp"
+}
+]

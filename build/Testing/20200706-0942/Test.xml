@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-mpicxx"
+	BuildStamp="20200706-0942-Experimental"
+	Name="matheus-GAMING"
+	Generator="ctest-3.16.3"
+	CompilerName="mpicxx"
+	CompilerVersion="9.3.0"
+	OSName="Linux"
+	Hostname="matheus-GAMING"
+	OSRelease="5.4.0-40-generic"
+	OSVersion="#44-Ubuntu SMP Tue Jun 23 00:01:04 UTC 2020"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="8"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="16020"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1757.73"
+	>
+	<Testing>
+		<StartDateTime>Jul 06 06:46 -03</StartDateTime>
+		<StartTestTime>1594028807</StartTestTime>
+		<TestList>
+			<Test>./SimpleTest</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>SimpleTest</Name>
+			<Path>.</Path>
+			<FullName>./SimpleTest</FullName>
+			<FullCommandLine>/usr/bin/mpiexec "-n" "4" "/home/matheus/Workspace/ElitesCpp/build/ElitesCpp"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.331116</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/mpiexec "-n" "4" "/home/matheus/Workspace/ElitesCpp/build/ElitesCpp"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJwLSS0uScwryVfwDfC0UuDyTSwuSS1S0FXwyC8usVLITSzJSC0t1nV39PX0c1coSszLtlLQMNQ30eQKQdUYnJNYlkpAnzGZ+kzI1GcE0gcA21FEmA==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Jul 06 06:46 -03</EndDateTime>
+		<EndTestTime>1594028808</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

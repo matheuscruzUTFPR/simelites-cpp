@@ -1,0 +1,26 @@
+Start testing: Jul 06 06:46 -03
+----------------------------------------------------------
+1/1 Testing: SimpleTest
+1/1 Test: SimpleTest
+Command: "/usr/bin/mpiexec" "-n" "4" "/home/matheus/Workspace/ElitesCpp/build/ElitesCpp"
+Directory: /home/matheus/Workspace/ElitesCpp/build
+"SimpleTest" start time: Jul 06 06:46 -03
+Output:
+----------------------------------------------------------
+Testanto MPI: 
+Master - Host: matheus-GAMING rank: (1/4)
+Testanto MPI: 
+Slave - Host: matheus-GAMING rank: (3/4)
+Testanto MPI: 
+Slave - Host: matheus-GAMING rank: (4/4)
+Testanto MPI: 
+Slave - Host: matheus-GAMING rank: (2/4)
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"SimpleTest" end time: Jul 06 06:46 -03
+"SimpleTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 06 06:46 -03
