@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matheus/Workspace/ElitesCpp
+CMAKE_SOURCE_DIR = /home/matheus/Workspace/ElitesCppGithub/simelites-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matheus/Workspace/ElitesCpp/build
+CMAKE_BINARY_DIR = /home/matheus/Workspace/ElitesCppGithub/simelites-cpp/build
 
 # Utility rule file for ContinuousConfigure.
 
@@ -71,6 +71,6 @@ CMakeFiles/ContinuousConfigure.dir/clean:
 .PHONY : CMakeFiles/ContinuousConfigure.dir/clean
 
 CMakeFiles/ContinuousConfigure.dir/depend:
-	cd /home/matheus/Workspace/ElitesCpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matheus/Workspace/ElitesCpp /home/matheus/Workspace/ElitesCpp /home/matheus/Workspace/ElitesCpp/build /home/matheus/Workspace/ElitesCpp/build /home/matheus/Workspace/ElitesCpp/build/CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/matheus/Workspace/ElitesCppGithub/simelites-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matheus/Workspace/ElitesCppGithub/simelites-cpp /home/matheus/Workspace/ElitesCppGithub/simelites-cpp /home/matheus/Workspace/ElitesCppGithub/simelites-cpp/build /home/matheus/Workspace/ElitesCppGithub/simelites-cpp/build /home/matheus/Workspace/ElitesCppGithub/simelites-cpp/build/CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousConfigure.dir/depend
 

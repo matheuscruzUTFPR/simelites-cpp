@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/matheus/Workspace/ElitesCpp
-BuildDirectory: /home/matheus/Workspace/ElitesCpp/build
+SourceDirectory: /home/matheus/Workspace/ElitesCppGithub/simelites-cpp
+BuildDirectory: /home/matheus/Workspace/ElitesCppGithub/simelites-cpp/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/matheus/Workspace/ElitesCpp"
+ConfigureCommand: "/usr/bin/cmake" "/home/matheus/Workspace/ElitesCppGithub/simelites-cpp"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

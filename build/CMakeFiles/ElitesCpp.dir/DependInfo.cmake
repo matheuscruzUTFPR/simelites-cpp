@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/matheus/Workspace/ElitesCpp/src/main.cpp" "/home/matheus/Workspace/ElitesCpp/build/CMakeFiles/ElitesCpp.dir/src/main.cpp.o"
+  "/home/matheus/Workspace/ElitesCppGithub/simelites-cpp/src/main.cpp" "/home/matheus/Workspace/ElitesCppGithub/simelites-cpp/build/CMakeFiles/ElitesCpp.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -26,8 +26,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../MPI_INCLUDE_PATH"
-  "/usr/include/postgresql"
-  "/usr/include/postgresql/12/server"
   )
 
 # Targets to which this target links.
