@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1.0)
-project(ElitesCpp VERSION 0.1.0)
+project(ElitesCpp VERSION 1.0.0)
 
 add_executable(ElitesCpp ./src/main.cpp)
 
@@ -27,9 +27,12 @@ find_package(Boost REQUIRED mpi system log)
 include_directories(${Boost_INCLUDE_DIRS})
 target_link_libraries(ElitesCpp ${Boost_LIBRARIES})
 
-find_package(PostgreSQL REQUIRED)
-include_directories(${PostgreSQL_INCLUDE_DIRS})
-target_link_libraries(ElitesCpp ${PostgreSQL_LIBRARIES})
+
+#find_package(PostgreSQL REQUIRED)
+#include_directories(${PostgreSQL_INCLUDE_DIRS})
+#target_link_libraries(ElitesCpp ${PostgreSQL_LIBRARIES})
+#target_link_libraries(ElitesCpp PRIVATE PostgreSQL::PostgreSQL)
+
 
 
 include(CTest)
