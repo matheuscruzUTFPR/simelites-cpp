@@ -84,6 +84,7 @@ ElitesCpp: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
 ElitesCpp: /usr/lib/x86_64-linux-gnu/libboost_mpi.so.1.71.0
 ElitesCpp: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 ElitesCpp: /usr/lib/x86_64-linux-gnu/libboost_log.so.1.71.0
+ElitesCpp: /usr/lib/x86_64-linux-gnu/libpq.so
 ElitesCpp: /usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.71.0
 ElitesCpp: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
 ElitesCpp: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/matheus/Workspace/ElitesCpp/src/main.cpp
+/home/matheus/Workspace/ElitesCppGithub/simelites-cpp/src/main.cpp
 functional
 -
 iostream
@@ -40,11 +40,9 @@ boost/geometry/geometries/point_xy.hpp
 boost/geometry/geometries/polygon.hpp
 -
 ../../dbinfo.inc
-/home/matheus/Workspace/dbinfo.inc
+/home/matheus/Workspace/ElitesCppGithub/dbinfo.inc
 libpq-fe.h
 -
-
-/home/matheus/Workspace/dbinfo.inc
 
 /usr/include/postgresql/libpq-fe.h
 stdio.h
